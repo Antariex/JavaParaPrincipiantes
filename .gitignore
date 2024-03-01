@@ -1,0 +1,37 @@
+# Archivos de compilación
+bin/
+target/
+
+# Configuración de IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Archivos de salida de Eclipse
+.classpath
+.project
+.settings/
+
+# Logs y archivos temporales
+log/
+*.log
+*.log.*
+*.tmp
+
+# Archivos de compilación de Maven
+log.txt
+target/
+
+# Archivos de NetBeans
+nbproject/private/
+
+# Archivos generados por el sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de usuario específicos
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
