@@ -13,7 +13,7 @@ public class Variables {
         num2 = 6;
         resultado = num1 + num2;
 
-        System.out.println("El resultado es igual a: " + resultado);
+        System.out.println("El resultado de la suma es igual a: " + resultado);
 
     }
 }
