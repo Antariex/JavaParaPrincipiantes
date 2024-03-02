@@ -1,3 +1,5 @@
+import org.w3c.dom.ls.LSOutput;
+
 public class Variables {
     public static void main(String args[]) {
 
@@ -13,7 +15,15 @@ public class Variables {
         num2 = 6;
         resultado = num1 + num2;
 
-        System.out.println("El resultado de la suma es igual a: " + resultado);
+        System.out.println("El resultado de la suma es igual a " + resultado);
+
+        if (num2 > num1) {
+            System.out.println("La variable num2 es mayor a la variable num1");
+        }
+
+        else {
+            System.out.println("La variable num1 es mayor a la variable numb3");
+        }
 
     }
 }
