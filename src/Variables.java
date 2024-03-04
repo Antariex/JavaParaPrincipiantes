@@ -21,6 +21,8 @@ public class Variables {
             System.out.println("La variable num2 es mayor a la variable num1");
         }
 
+        /* Esta es una estructura if/else anidada.
+        También podría haberse usado "else if" para evaluar múltiples condiciones en orden. */
         else {
             if (num1 == num2) {
                 System.out.println("Las variables tienen valores iguales");
