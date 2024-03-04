@@ -12,7 +12,7 @@ public class Variables {
 
         int num1, num2, resultado;
         num1 = 4;
-        num2 = 6;
+        num2 = 4;
         resultado = num1 + num2;
 
         System.out.println("El resultado de la suma es igual a " + resultado);
@@ -22,7 +22,13 @@ public class Variables {
         }
 
         else {
-            System.out.println("La variable num1 es mayor a la variable numb3");
+            if (num1 == num2) {
+                System.out.println("Las variables tienen valores iguales");
+            }
+
+            else {
+                System.out.println("La variable num1 es mayor a la variable numb2");
+            }
         }
 
     }
