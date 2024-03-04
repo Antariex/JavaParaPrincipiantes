@@ -31,7 +31,7 @@ public class Switch {
         }
 
         /*Existe una sintaxis alternativa a la estructura switch, usando arrow notation (->)
-    Esta posibilidad es posiblr desde Java 12, y se llama  "Switch Expressions.":
+        Esto es posible desde Java 12, y se llama  "Switch Expressions.":
 
         String nombreDia = switch (dia) {
             case 1 -> "domingo";
