@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class EjerciciosRepetitivas2 {
     public static void main(String[] args) {
-        /*Ejercicio 2:
+        /*Ejercicio 2: ingreso de palabras controlado por un centinela.
 
         Realizar un programa que muestre en pantalla palabras que sean ingresadas por teclado hasta que se ingrese la palabra "salir".*/
 
