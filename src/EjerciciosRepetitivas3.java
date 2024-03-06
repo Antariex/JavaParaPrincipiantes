@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class EjerciciosRepetitivas3 {
     public static void main(String[] args) {
     /*Ejercicio 3: maratón del inmigrante.
@@ -19,5 +21,58 @@ public class EjerciciosRepetitivas3 {
     inscripto. cabe destacar que, al finalizar el día, para dar fin a las inscripciones, se debe ingresar un dni con el valor 0, y un nombre
     con la palabra "fin".
     */
+
+        Scanner datos = new Scanner (System.in);
+        System.out.println("Ingrese el nombre completo del participante:");
+        String nombreParticipante = datos.nextLine();
+
+        System.out.println("Ingrese el DNI del participante:");
+        String dniParticipante = datos.nextLine();
+
+        System.out.println("Ingrese la edad del participante:");
+        int edadParticipante = datos.nextInt();
+        datos.nextLine();
+
+        int contadorInscriptos = 0;
+
+        while ((!dniParticipante.equals("0")) && (!nombreParticipante.equalsIgnoreCase("fin"))) {
+
+            String categoriaParticipante;
+
+            if (edadParticipante >= 6 && edadParticipante <= 10) {
+                categoriaParticipante = "Menores A";
+            } else if (edadParticipante >= 11 && edadParticipante <= 17) {
+                categoriaParticipante = "Menores B";
+            } else if (edadParticipante >= 18 && edadParticipante <= 30) {
+                categoriaParticipante = "Juveniles";
+            } else if (edadParticipante >= 31 && edadParticipante <= 50) {
+                categoriaParticipante = "Adultos";
+            } else if (edadParticipante > 50) {
+                categoriaParticipante = "Adultos mayores";
+            } else {
+                categoriaParticipante = "Edad inválida";
+            }
+
+            contadorInscriptos++;
+
+            System.out.println(" ");
+            System.out.println("-------------");
+            System.out.println("El participante " + nombreParticipante + " (DNI " + dniParticipante + ") pertenece a la categoría: " + categoriaParticipante);
+            System.out.println("-------------");
+            System.out.println(" ");
+
+            System.out.println("Ingrese el nombre completo del participante:");
+            nombreParticipante = datos.nextLine();
+            System.out.println("Ingrese el DNI del participante:");
+            dniParticipante = datos.nextLine();
+            System.out.println("Ingrese la edad del participante:");
+            edadParticipante = datos.nextInt();
+            datos.nextLine();
+        }
+
+        System.out.println(" ");
+        System.out.println("-------------");
+        System.out.println("Fin de las inscripciones. La cantidad total de inscriptos es de: " + contadorInscriptos);
+        System.out.println("-------------");
     }
 }
