@@ -48,10 +48,3 @@ public class EjerciciosRepetitivas4 {
             System.out.println("¡Hasta luego!");
     }
 }
-
-        //     *
-        //    ***
-        //   *****
-        //  *******
-        // *********
-        //    |||
