@@ -4,7 +4,7 @@ import java.util.Vector;
 public class Arreglos {
     public static void main(String[] args) {
 
-        //Declaración
+        //Declaración vector
         int vector [] = new int [4];
 
         /*Asignación (manual)
@@ -28,5 +28,13 @@ public class Arreglos {
             System.out.println("Tengo guardado un " +  vector[i]);
             System.out.println("-------");
         }
+
+        //Declaración matriz
+        int matriz [][] = new int[3][3];
+
+        //Asignación (manual)
+        matriz [0][0] = 5;
+        matriz [0][1] = 13;
+        matriz [2][2] = 24;
     }
 }
