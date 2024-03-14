@@ -1,10 +1,13 @@
+/*
+Ejercicio 2: ingreso de palabras controlado por un centinela.
+
+Realizar un programa que muestre en pantalla palabras que sean ingresadas por teclado hasta que se ingrese la palabra "salir".
+*/
+
 import java.util.Scanner;
 
 public class EjerciciosRepetitivas2 {
     public static void main(String[] args) {
-        /*Ejercicio 2: ingreso de palabras controlado por un centinela.
-
-        Realizar un programa que muestre en pantalla palabras que sean ingresadas por teclado hasta que se ingrese la palabra "salir".*/
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Ingrese la palabra que quiera imprimir en pantalla. Para finalizar el programa escriba el comando 'salir':");

@@ -1,16 +1,19 @@
+/*
+Una pequeña despensa desea calcular los sueldos de sus empleados.
+Los puestos de los mismos pueden tener tres categorías: 1- repositor, 2- cajero y 3- supervisor.
+
+    * Los repositores cobran $15.890 + un bono del 10%
+    * Los cajeros cobran $25.630,89 fijos
+    * Los supervisores cobran $35.560,20 en bruto al cual se les descuenta un 11% de jubilación.
+
+Se necesita un programa que, dependiendo del tipo de empleado del que se trate, calcule y muestre en pantalla el correspondiente sueldo.
+*/
+
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class EjercicioCondicionales {
     public static void main(String[] args) {
-        /* Una pequeña despensa desea calcular los sueldos de sus empleados.
-        Los puestos de los mismos pueden tener tres categorías: 1- repositor, 2- cajero y 3- supervisor.
-
-        * Los repositores cobran $15.890 + un bono del 10%
-        * Los cajeros cobran $25.630,89 fijos
-        * Los supervisores cobran $35.560,20 en bruto al cual se les descuenta un 11% de jubilación.
-
-        Se necesita un programa que, dependiendo del tipo de empleado del que se trate, calcule y muestre en pantalla el correspondiente sueldo. */
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Ingrese el tipo de empleado: ");

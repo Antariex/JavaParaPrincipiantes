@@ -1,7 +1,9 @@
+/*
+Realizar un programa que permita el intercambio de valores entre dos variables. Una vez realizado el cambio mostrar el resultado por pantalla
+*/
+
 public class EjerciciosLogicos {
     public static void main(String args[]) {
-        /* Realizar un programa que permita el intercambio de valores entre dos variables.
-        Una vez realizado el cambio mostrar el resultado por pantalla */
 
         int numero1 = 20;
         int numero2 = 35;
