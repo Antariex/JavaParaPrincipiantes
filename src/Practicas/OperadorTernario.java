@@ -1,3 +1,5 @@
+package Practicas;
+
 import java.util.Scanner;
 
 public class OperadorTernario {

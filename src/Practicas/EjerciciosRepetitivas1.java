@@ -1,9 +1,10 @@
-/*
+/**
 Ejercicio 1: contar números.
 
 Realizar un programa que dado por teclado un límite númerico (por ejemplo 100) muestre en pantalla todos los números hasta ese límite (empezando por 1).
 */
 
+package Practicas;
 import java.util.Scanner;
 
 public class EjerciciosRepetitivas1 {

@@ -1,4 +1,4 @@
-/*
+/**
 Una pequeña despensa desea calcular los sueldos de sus empleados.
 Los puestos de los mismos pueden tener tres categorías: 1- repositor, 2- cajero y 3- supervisor.
 
@@ -9,6 +9,7 @@ Los puestos de los mismos pueden tener tres categorías: 1- repositor, 2- cajero
 Se necesita un programa que, dependiendo del tipo de empleado del que se trate, calcule y muestre en pantalla el correspondiente sueldo.
 */
 
+package Practicas;
 import java.text.DecimalFormat;
 import java.util.Scanner;
 

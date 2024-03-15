@@ -1,7 +1,8 @@
-/*
+/**
 Realizar un programa que permita cargar 15 números en un vector. Una vez cargados, se necesita que el programa cuente e informe por pantalla cuántas veces se cargó el número 3.
 */
 
+package Practicas;
 import java.util.Scanner;
 
 public class EjerciciosArreglos1 {

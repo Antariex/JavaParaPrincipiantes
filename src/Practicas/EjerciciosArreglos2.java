@@ -1,4 +1,4 @@
-/*
+/**
 En una tabla de cuatro filas y cuatro columnas se guardan las notas de cuatro alumnos de secundaria.
 Cada fila corresponde a las notas y al promedio de cada alumno. Se necesita un programa que permita a
 un profesor cargar, en las tres posiciones (columnas) de cada fila, las notas del alumno y que en la
@@ -6,6 +6,7 @@ un profesor cargar, en las tres posiciones (columnas) de cada fila, las notas de
 notas de cada alumno y el promedio correspondiente recorriendo la matriz
 */
 
+package Practicas;
 import java.util.Scanner;
 
 public class EjerciciosArreglos2 {

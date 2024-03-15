@@ -1,3 +1,5 @@
+package Practicas;
+
 public class Repetitivas {
     public static void main(String[] args) {
 

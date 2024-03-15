@@ -1,4 +1,4 @@
-/*
+/**
 Ejercicio 3: maratón del inmigrante.
 
 En la ciudad de Oberá, Misiones, se realiza año a año la "Maratón del Inmigrante" en el marco de la Fiesta Nacional del Inmigrante.
@@ -19,6 +19,7 @@ inscripto. cabe destacar que, al finalizar el día, para dar fin a las inscripci
 con la palabra "fin".
 */
 
+package Practicas;
 import java.util.Scanner;
 
 public class EjerciciosRepetitivas3 {
