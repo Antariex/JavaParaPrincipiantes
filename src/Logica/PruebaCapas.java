@@ -1,7 +1,5 @@
-package logica;
+package Logica;
 import IGU.Pantalla;
-
-import javax.swing.*;
 
 public class PruebaCapas {
     public static void main(String[] args) {
